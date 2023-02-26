@@ -5,5 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(Practice-2)
 
-add_executable(Something
-        Practice-2/Task-1.cpp Practice-2/Task-2.cpp)
+add_executable(Triangle Practice-2/Triangle/Triangle.cpp Practice-2/Triangle/Triangle.h Practice-2/Triangle/main.cpp)
